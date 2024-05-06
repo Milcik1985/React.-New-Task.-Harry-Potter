@@ -1,6 +1,12 @@
 import styles from "../Header/Header.module.css";
+import LinksWrapper from "./Links/Links";
 
 const Header = () => {
+  const links = [
+    { link: "#", title: "About Us" },
+    { link: "#", title: "Characters" },
+    { link: "#", title: "Contact Us" },
+  ];
   return (
     <header className={styles.main}>
       <div>
@@ -8,15 +14,7 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Characters</a>
-          </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
+          <LinksWrapper links={links} />
         </ul>
       </nav>
     </header>
