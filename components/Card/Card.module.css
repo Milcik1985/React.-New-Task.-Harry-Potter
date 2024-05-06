@@ -1,0 +1,20 @@
+.main {
+  background-color: black;
+  color: white;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid aqua;
+  gap: 0.5rem;
+}
+
+.image {
+  object-fit: cover;
+  height: 12rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
