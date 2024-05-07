@@ -13,6 +13,13 @@
 .image {
   object-fit: cover;
   height: 12rem;
+  padding: 0.5rem;
+}
+
+.avatar {
+  height: 12rem;
+  padding: 0.5rem;
+  /* background-color: black; */
 }
 
 .text {
